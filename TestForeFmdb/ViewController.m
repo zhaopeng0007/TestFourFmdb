@@ -17,6 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    float f1=[self getCurrentFloatwithNumber:0];
+    
+    NSLog(@"thishfiasf %f",f1);
 }
 
 - (void)didReceiveMemoryWarning {
