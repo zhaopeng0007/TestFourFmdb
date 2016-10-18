@@ -10,5 +10,6 @@
 
 @interface ViewController : UIViewController
 - (int)getNum;
+-(float)getCurrentFloatwithNumber:(int)number;
 @end
 

@@ -29,4 +29,9 @@
     return 100;
 }
 
+-(float)getCurrentFloatwithNumber:(int)number{
+    
+    return 100.00/number;
+}
+
 @end
