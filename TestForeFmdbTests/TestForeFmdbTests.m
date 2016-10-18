@@ -58,9 +58,9 @@
 
 -(void)testMyFunTwo{
 
-    float f1=[self.vc getCurrentFloatwithNumber:0.00];
-    
-    NSLog(@"this is fff %f",f1);
+//    float f1=[self.vc getCurrentFloatwithNumber:0.00];
+//    
+//    NSLog(@"this is fff %f",f1);
     
 }
 
