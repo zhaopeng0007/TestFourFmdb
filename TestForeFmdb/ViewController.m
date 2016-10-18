@@ -21,12 +21,10 @@
     
     NSLog(@"thishfiasf %f",f1);
     
-    NSDictionary *dic=@{@"zz":@"cc"};
-    
-    
-    
-    
-    [dic setValue:@"asdfjkalsj" forKey:[dic objectForKey:@"sdfasdf"]];
+//    NSDictionary *dic=@{@"zz":@"cc"};
+//    
+//    
+//    [dic setValue:@"asdfjkalsj" forKey:[dic objectForKey:@"sdfasdf"]];
     
     
     

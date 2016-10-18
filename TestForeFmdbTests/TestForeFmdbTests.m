@@ -51,9 +51,9 @@
 - (void)testMyFuc {
     
     // 调用需要测试的方法，
-//    int result = [self.vc getNum];
-    // 如果不相等则会提示@“测试不通过”
-//    XCTAssertEqual(result, 120,@"测试不通过");
+    int result = [self.vc getNum];
+//     如果不相等则会提示@“测试不通过”
+    XCTAssertEqual(result, 120,@"测试不通过");
 }
 
 -(void)testMyFunTwo{
