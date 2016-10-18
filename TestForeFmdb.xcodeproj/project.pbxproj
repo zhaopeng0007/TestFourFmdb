@@ -15,6 +15,9 @@
 		9D8B0F101D2C0A43005F3FB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D8B0F0E1D2C0A43005F3FB7 /* LaunchScreen.storyboard */; };
 		9D8B0F1B1D2C0A43005F3FB7 /* TestForeFmdbTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8B0F1A1D2C0A43005F3FB7 /* TestForeFmdbTests.m */; };
 		9D8B0F261D2C0A43005F3FB7 /* TestForeFmdbUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8B0F251D2C0A43005F3FB7 /* TestForeFmdbUITests.m */; };
+		D3A7B2CA1DB65288001F1BDE /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A7B2C91DB65288001F1BDE /* SecondViewController.m */; };
+		D3A7B2CB1DB65288001F1BDE /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A7B2C91DB65288001F1BDE /* SecondViewController.m */; };
+		D3A7B2CC1DB65288001F1BDE /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A7B2C91DB65288001F1BDE /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,8 @@
 		9D8B0F211D2C0A43005F3FB7 /* TestForeFmdbUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestForeFmdbUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D8B0F251D2C0A43005F3FB7 /* TestForeFmdbUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestForeFmdbUITests.m; sourceTree = "<group>"; };
 		9D8B0F271D2C0A43005F3FB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3A7B2C81DB65288001F1BDE /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		D3A7B2C91DB65288001F1BDE /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +110,8 @@
 				9D8B0F041D2C0A43005F3FB7 /* AppDelegate.m */,
 				9D8B0F061D2C0A43005F3FB7 /* ViewController.h */,
 				9D8B0F071D2C0A43005F3FB7 /* ViewController.m */,
+				D3A7B2C81DB65288001F1BDE /* SecondViewController.h */,
+				D3A7B2C91DB65288001F1BDE /* SecondViewController.m */,
 				9D8B0F091D2C0A43005F3FB7 /* Main.storyboard */,
 				9D8B0F0C1D2C0A43005F3FB7 /* Assets.xcassets */,
 				9D8B0F0E1D2C0A43005F3FB7 /* LaunchScreen.storyboard */,
@@ -270,6 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3A7B2CA1DB65288001F1BDE /* SecondViewController.m in Sources */,
 				9D8B0F081D2C0A43005F3FB7 /* ViewController.m in Sources */,
 				9D8B0F051D2C0A43005F3FB7 /* AppDelegate.m in Sources */,
 				9D8B0F021D2C0A43005F3FB7 /* main.m in Sources */,
@@ -280,6 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3A7B2CB1DB65288001F1BDE /* SecondViewController.m in Sources */,
 				9D8B0F1B1D2C0A43005F3FB7 /* TestForeFmdbTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +297,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3A7B2CC1DB65288001F1BDE /* SecondViewController.m in Sources */,
 				9D8B0F261D2C0A43005F3FB7 /* TestForeFmdbUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +508,7 @@
 				9D8B0F2C1D2C0A43005F3FB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9D8B0F2D1D2C0A43005F3FB7 /* Build configuration list for PBXNativeTarget "TestForeFmdbTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +517,7 @@
 				9D8B0F2F1D2C0A43005F3FB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9D8B0F301D2C0A43005F3FB7 /* Build configuration list for PBXNativeTarget "TestForeFmdbUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +526,7 @@
 				9D8B0F321D2C0A43005F3FB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
